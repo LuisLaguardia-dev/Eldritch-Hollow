@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="28" height="22" tilewidth="15" tileheight="15" infinite="0" nextlayerid="3" nextobjectid="26">
+ <tileset firstgid="1" source="Ground Tileset.tsx"/>
+ <layer id="1" name="sueloLayer" width="28" height="22">
+  <data encoding="csv">
+255,255,255,255,255,255,255,255,255,255,255,255,244,257,257,244,255,255,255,255,255,255,255,255,255,255,255,255,
+255,221,222,222,222,222,222,222,222,222,222,222,244,257,257,244,222,222,222,222,222,222,222,222,222,222,223,255,
+255,243,244,244,244,244,244,244,244,244,244,244,244,257,257,244,244,244,244,244,244,244,244,244,244,244,245,255,
+255,243,244,244,244,244,244,244,244,244,244,244,244,257,257,244,244,244,244,244,244,244,244,244,244,244,245,255,
+255,243,244,244,244,244,244,244,244,244,244,244,244,279,279,244,244,244,244,244,244,244,244,244,244,244,245,255,
+255,243,244,244,244,244,244,301,244,244,244,244,244,244,244,244,244,244,244,244,301,244,244,244,244,244,245,255,
+255,243,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,245,255,
+255,243,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,245,255,
+255,243,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,245,255,
+255,243,244,244,244,244,244,244,244,244,244,244,232,233,233,234,244,244,244,244,244,244,244,244,244,244,245,255,
+255,243,244,244,244,244,244,244,244,244,244,244,254,255,255,256,244,244,244,244,244,244,244,244,244,244,245,255,
+255,243,244,244,244,244,244,244,244,244,244,244,254,255,255,256,244,244,244,244,244,244,244,244,244,244,245,255,
+255,243,244,244,244,244,244,244,244,244,244,244,276,277,277,278,244,244,244,244,244,244,244,244,244,244,245,255,
+255,243,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,245,255,
+255,243,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,245,255,
+255,243,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,244,245,255,
+255,243,244,244,244,244,244,301,244,244,244,244,244,244,244,244,244,244,244,244,301,244,244,244,244,244,245,255,
+255,243,244,244,244,244,244,244,244,244,244,244,244,235,235,244,244,244,244,244,244,244,244,244,244,244,245,255,
+255,243,244,244,244,244,244,244,244,244,244,244,244,257,257,244,244,244,244,244,244,244,244,244,244,244,245,255,
+255,243,244,244,244,244,244,244,244,244,244,244,244,257,257,244,244,244,244,244,244,244,244,244,244,244,245,255,
+255,265,266,266,266,266,266,266,266,266,266,266,244,257,257,244,266,266,266,266,266,266,266,266,266,266,267,255,
+255,255,255,255,255,255,255,255,255,255,255,255,244,257,257,244,255,255,255,255,255,255,255,255,255,255,255,255
+</data>
+ </layer>
+ <objectgroup id="2" name="Colisiones">
+  <object id="1" x="0" y="0" width="165" height="15">
+   <properties>
+    <property name="name" value="pared"/>
+   </properties>
+  </object>
+  <object id="2" x="0" y="15" width="15" height="315">
+   <properties>
+    <property name="name" value="pared"/>
+   </properties>
+  </object>
+  <object id="3" x="15" y="315" width="150" height="15">
+   <properties>
+    <property name="name" value="pared"/>
+   </properties>
+  </object>
+  <object id="4" x="255" y="315" width="165">
+   <properties>
+    <property name="name" value="pared"/>
+   </properties>
+  </object>
+  <object id="5" x="405" y="0" width="15" height="315">
+   <properties>
+    <property name="name" value="pared"/>
+   </properties>
+  </object>
+  <object id="6" x="255" y="0" width="150" height="15">
+   <properties>
+    <property name="name" value="pared"/>
+   </properties>
+  </object>
+  <object id="7" x="165" y="315" width="90" height="15">
+   <properties>
+    <property name="name" value="puerta"/>
+   </properties>
+  </object>
+  <object id="8" x="165" y="0" width="90" height="15">
+   <properties>
+    <property name="name" value="puerta"/>
+   </properties>
+  </object>
+  <object id="9" x="195" y="255" width="30" height="30">
+   <properties>
+    <property name="name" value="start"/>
+   </properties>
+  </object>
+  <object id="10" x="195" y="45" width="30.5" height="26.5">
+   <properties>
+    <property name="name" value="start"/>
+   </properties>
+  </object>
+  <object id="11" x="150" y="-45" width="120" height="30">
+   <properties>
+    <property name="name" value="end"/>
+   </properties>
+  </object>
+  <object id="12" x="150" y="345" width="120" height="30">
+   <properties>
+    <property name="name" value="end"/>
+   </properties>
+  </object>
+  <object id="20" gid="134" x="105" y="90" width="16" height="16">
+   <properties>
+    <property name="enemigo" value="simple"/>
+   </properties>
+  </object>
+  <object id="21" gid="134" x="105" y="255" width="16" height="16">
+   <properties>
+    <property name="enemigo" value="simple"/>
+   </properties>
+  </object>
+  <object id="22" gid="134" x="300" y="255" width="16" height="16">
+   <properties>
+    <property name="enemigo" value="simple"/>
+   </properties>
+  </object>
+  <object id="23" gid="134" x="300" y="90" width="16" height="16">
+   <properties>
+    <property name="enemigo" value="simple"/>
+   </properties>
+  </object>
+  <object id="24" gid="134" x="195" y="179" width="30" height="30">
+   <properties>
+    <property name="enemigo" value="simple"/>
+   </properties>
+  </object>
+  <object id="25" x="255" y="315" width="150" height="15">
+   <properties>
+    <property name="name" value="pared"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
